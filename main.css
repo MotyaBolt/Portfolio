@@ -1,0 +1,159 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #262E3E;
+    color: white;
+}
+header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100px;
+}
+h1 {
+    font-size: 4.2rem;
+}
+#projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    
+}
+.project-div {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.welcome {
+    width: 762.23px;
+    font-size: 1.6rem;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#projects {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+#contact-section {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+main {
+    padding-top: 100px;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #116061;
+    height: 100%;
+}
+.project-tile {
+    color: white;
+}
+#navbar > ul {
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    height: 40px;
+}
+.nav-link {
+    display: block;
+    padding: 2.25rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: gainsboro;
+}
+.nav-link:hover {
+    color: white;
+}
+li:hover {
+    background-color: #0e5052;
+}
+li {
+    list-style-type: none;
+   height: 100px;
+}
+.project-img {
+    width: 500px;
+    height: 270px;
+}
+.fab {
+    padding-right: 1rem;
+    font-size: 2rem;
+    color: gainsboro;
+    padding: 10px;
+}
+.fab:hover {
+    color: white;
+    background-color: #313a4b;
+}
+.email-link {
+    color: gainsboro;
+    font-size: 1.8rem;
+    text-decoration: none;
+    
+}
+.email-link:hover {
+    color: white;
+}
+.project-tile {
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.project-div-in {
+    height: 355px;
+    background-color: #262E3E;
+    margin-bottom: 50px;
+}  
+.project-div-in:hover {
+    background-color: #313a4b;
+}
+.project-div-in:hover .project-name {
+    color: white;
+}
+.project-name {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: gainsboro
+}
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-description {
+   width: 600px;
+   font-size: 1.3rem;
+}
+.start-contact {
+    font-size: 2rem;
+}
+.email-div {
+    margin-bottom: 30px;
+}
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+@media (max-width: 600px) {
+    #navbar {
+      justify-content: center;
+    }
+  }
